@@ -202,13 +202,13 @@ addEventListener("DOMContentLoaded", () => {
 
 
         function loadStaticCurrentWeather() {
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=Oskemen&appid=${weatherApiKey}&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${weatherApiKey}&units=metric`)
                 .then(response => response.json())
                 .then((data) => {
                     console.log(data);
                     new WeatherInfo(data, ".weather-inner__current-weather", ".weather-inner__rightblock__other-information").render();
                 });
-            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Oskemen&appid=${weatherApiKey}&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Paris&appid=${weatherApiKey}&units=metric`)
                 .then(response => response.json())
                 .then((data) => {
                     console.log(data);
