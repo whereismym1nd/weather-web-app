@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+    <script defer src="./index.js"></script>
+</head>
+<body style="background-color: #181818;">
+    <div class="weather__container">
+        <div class="weather-inner__container">
+            <div class="weather-inner__current-weather-info">
+                <div class="weather-inner__search">
+                    <form class="search__form">
+                        <input type="text" autocomplete="off" id="search" placeholder="Search...">
+                        <button type="submit" id="submit"><img class="search__icon" src="./img/search.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="weather-inner__current-weather">
+
+                </div>
+            </div>
+            <div class="weather-inner__rightblock">
+                <div class="weather-inner__rightblock-forecast">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="weather-inner__rightblock__daily-forecast">
+                    
+                </div>
+                <div class="weather-inner__rightblock__other-information">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
