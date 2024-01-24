@@ -1,5 +1,5 @@
 # Weather web application on native JS
-![Screenshot](https://github.com/whereismym1nd/weather-web-app/blob/main/img/Screenshot_26.png?raw=true)
+![Screenshot](https://github.com/whereismym1nd/weather-web-app/blob/main/img/Screenshot_27.png?raw=true)
 
 This application works on the basis of JSON data from the server openweathermap.org . 
 
